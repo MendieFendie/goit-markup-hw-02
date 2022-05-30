@@ -92,10 +92,18 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+}
 
 /*--------benefits---------------*/
 
-.benefits-title {
+.benefits-headline {
+  visibility: hidden;
+}
+
+.benefirt .benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -149,6 +157,7 @@ body {
 }
 
 /*--------FOOTER---------------*/
+
 .footer-logo-text {
   color: var(--hero-color);
 }
@@ -187,4 +196,51 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*---------------PORTFOLIO---------------*/
+
+/*------------------MAIN-----------------*/
+
+.buttons-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  background-color: #f5f4fa;
+}
+
+.buttons-item:hover {
+  color: var(--hero-color);
+  background-color: #2196f3;
+}
+
+.buttons-item:focus {
+  color: var(--hero-color);
+  background-color: #2196f3;
+}
+
+/*-------------exemple-------------*/
+
+.exemple-title {
+  visibility: hidden;
+}
+
+.exemple-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.exemple-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
