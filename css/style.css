@@ -128,7 +128,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--header-color);
 }
 
 /*--------TEAM---------------*/
