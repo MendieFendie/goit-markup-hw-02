@@ -8,6 +8,7 @@
 
 body {
   font-family: roboto, sans-serif;
+  color: #212121;
 }
 
 .link {
@@ -83,6 +84,7 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -203,8 +205,7 @@ body {
 /*------------------MAIN-----------------*/
 
 .buttons-item {
-  font-family: "Roboto";
-  font-style: normal;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
