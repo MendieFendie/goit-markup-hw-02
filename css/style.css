@@ -215,12 +215,12 @@ body {
 
 .buttons-item:hover {
   color: var(--hero-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .buttons-item:focus {
   color: var(--hero-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /*-------------exemple-------------*/
