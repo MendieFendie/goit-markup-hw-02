@@ -80,6 +80,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--hero-color);
 }
 
@@ -105,11 +106,12 @@ body {
   visibility: hidden;
 }
 
-.benefirt .benefits-title {
+.benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-color);
 }
 
@@ -151,7 +153,6 @@ body {
   color: var(--header-color);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -193,7 +194,6 @@ body {
 .fotter-mail,
 .fotter-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -205,6 +205,7 @@ body {
 /*------------------MAIN-----------------*/
 
 .buttons-item {
+  font-family: "Roboto";
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -225,6 +226,10 @@ body {
 }
 
 /*-------------exemple-------------*/
+
+.buttons-title {
+  visibility: hidden;
+}
 
 .exemple-title {
   visibility: hidden;
